@@ -30,4 +30,4 @@ jobs:
         run: pip install pytest pytest-docker psycopg requests
 
       - name: Run pytest
-        run: pytest --verbose
+        run: pytest container_tests --verbose

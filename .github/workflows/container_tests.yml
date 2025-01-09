@@ -1,4 +1,4 @@
-name: Run pytest tests
+name: Docker container example - pytest
 
 on:
   push:

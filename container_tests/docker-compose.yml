@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  web:
+    image: python:3.9-slim
+    command: python -m http.server 8000
+    ports:
+      - "8000:8000"
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: testuser
+      POSTGRES_PASSWORD: testpassword
+      POSTGRES_DB: testdb
+    ports:
+      - "5432:5432"

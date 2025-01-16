@@ -17,7 +17,7 @@ def is_responsive(url):
         return False
 
 
-def is_db_responsive(url):
+def is_db_responsive():
     try:
         conn = psycopg.connect(
             host="localhost",
@@ -50,7 +50,7 @@ def db_connection(docker_ip, docker_services):
     """Wait for the database to be ready and return connection info."""
 
     docker_services.wait_until_responsive(
-        timeout=30.0, pause=0.1, check=lambda: is_db_responsive(url)
+        timeout=30.0, pause=0.1, check=lambda: is_db_responsive()
     )
 
     return {

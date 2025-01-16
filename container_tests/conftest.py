@@ -12,7 +12,7 @@ def is_responsive(url):
         response = requests.get(url)
         if response.status_code == 200:
             return True
-    except ConnectionError:
+    except requests.RequestException:
         return False
 
 

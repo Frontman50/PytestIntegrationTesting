@@ -1,5 +1,5 @@
 import requests
-import psycopg2
+import psycopg
 
 def test_web_service(web_service_url):
     response = requests.get(web_service_url)
@@ -7,7 +7,7 @@ def test_web_service(web_service_url):
 
 
 def test_db_connection(db_connection):
-    with psycopg2.connect(
+    with psycopg.connect(
         host=db_connection["host"],
         port=db_connection["port"],
         user=db_connection["user"],
@@ -22,7 +22,7 @@ def test_db_connection(db_connection):
 
 def test_insert_and_select_user(db_connection):
     # Establish connection
-    with psycopg2.connect(
+    with psycopg.connect(
             host=db_connection["host"],
             port=db_connection["port"],
             user=db_connection["user"],

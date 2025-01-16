@@ -32,7 +32,7 @@ def web_service_url(docker_ip,docker_services):
 @pytest.fixture(scope="session")
 def db_connection(docker_ip, docker_services):
     """Wait for the database to be ready and return connection info."""
-    port = docker_services.port_for("web", 8000)
+    port = docker_services.port_for("db", 5432)
     url = "http://{}:{}".format(docker_ip, port)
 
     docker_services.wait_until_responsive(

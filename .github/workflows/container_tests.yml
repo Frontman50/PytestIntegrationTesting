@@ -19,7 +19,7 @@ jobs:
           python-version: 3.9
 
       - name: Install dependencies
-        run: pip install pytest pytest-docker psycopg2 requests
+        run: pip install pytest pytest-docker psycopg requests
 
       - name: Run pytest
         run: pytest container_tests --verbose

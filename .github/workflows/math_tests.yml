@@ -19,7 +19,7 @@ jobs:
           python-version: 3.9
 
       - name: Install dependencies
-        run: pip install pytest pytest-docker psycopg requests
+        run: pip install pytest pytest-docker psycopg requests pytest-cov
 
       - name: Run pytest
-        run: pytest math_tests --verbose
+        run: pytest math_tests --verbose --cov --cov-branch --cov-report=xml

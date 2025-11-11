@@ -17,7 +17,7 @@ attrs~=25.4.0
 jsonschema==4.25.1
 typing-extensions==4.12.2
 jsonpath-ng~=1.7.0
-typing_extensions~=4.12.2
+typing_extensions~=4.15.0
 fhir.resources==8.1.0
 urllib3~=2.5.0
 python-dotenv==1.2.1

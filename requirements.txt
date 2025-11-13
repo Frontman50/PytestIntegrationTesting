@@ -1,4 +1,4 @@
-requests==2.31.0
+requests==2.32.5
 lxml==6.0.2
 psycopg2==2.9.11
 sortedcontainers==2.4.0

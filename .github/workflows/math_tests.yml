@@ -1,6 +1,6 @@
 name: Unit test example - pytest
 permissions:
-  contents: write
+  contents: read
 
 on:
   push:

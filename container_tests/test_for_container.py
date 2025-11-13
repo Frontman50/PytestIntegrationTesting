@@ -1,5 +1,5 @@
 import requests
-import psycopg
+import psycopg2 as psycopg
 
 def test_web_service(web_service_url):
     response = requests.get(web_service_url)

@@ -1,4 +1,4 @@
-import psycopg
+import psycopg2 as psycopg
 import pytest
 import requests
 

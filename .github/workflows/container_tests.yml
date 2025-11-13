@@ -1,4 +1,6 @@
 name: Docker container example - pytest
+permissions:
+  contents: write
 
 on:
   push:

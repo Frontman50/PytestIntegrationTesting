@@ -13,8 +13,7 @@ on:
     - cron: '28 8 * * 1'
   push:
     branches: [ "main" ]
-    tags:
-      - "*"
+
 
 # Declare default permissions as read only.
 permissions: read-all

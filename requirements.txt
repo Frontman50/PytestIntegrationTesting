@@ -23,7 +23,7 @@ pytest-xdist==3.8.0
 pytest~=9.0.1
 python-dotenv==1.2.1
 pyyaml==6.0.3
-requests==2.32.5
+requests==2.33.1
 sortedcontainers==2.4.0
 typing-extensions==4.15.0
 urllib3~=2.5.0

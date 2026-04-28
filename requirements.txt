@@ -1,7 +1,7 @@
 antlr4-python3-runtime==4.9.3
 attrs~=25.4.0
 beautifulsoup4~=4.14.2
-black==25.11.0
+black==26.3.1
 cachetools
 docker~=7.1.0
 fastjsonschema~=2.21.1

@@ -5,7 +5,7 @@ black==26.3.1
 cachetools
 docker~=7.1.0
 fastjsonschema~=2.21.1
-fhir.resources==8.1.0
+fhir.resources==8.2.0
 flake8==7.3.0
 isodate==0.7.2
 json_source_map==1.0.5

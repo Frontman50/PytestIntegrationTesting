@@ -21,7 +21,7 @@ pytest-httpserver==1.1.5
 pytest-lazy-fixtures==1.4.0
 pytest-xdist==3.8.0
 pytest~=9.0.1
-python-dotenv==1.2.1
+python-dotenv==1.2.2
 pyyaml==6.0.3
 requests==2.33.1
 sortedcontainers==2.4.0

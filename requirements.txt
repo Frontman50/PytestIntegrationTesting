@@ -14,7 +14,7 @@ jsonschema==4.26.0
 lxml==6.0.2
 psycopg2==2.9.12
 pydantic~=2.12.4
-pytest-cov==7.0.0
+pytest-cov==7.1.0
 pytest-docker==3.2.5
 pytest-env==1.2.0
 pytest-httpserver==1.1.5

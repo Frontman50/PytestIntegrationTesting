@@ -26,6 +26,6 @@ python-dotenv==1.2.2
 pyyaml==6.0.3
 requests==2.33.1
 sortedcontainers==2.4.0
-typing-extensions==4.15.0
+typing-extensions==4.16.0
 urllib3~=2.6.3
 semver~=3.0.4

@@ -17,7 +17,7 @@ psycopg2==2.9.12
 pydantic~=2.13.3
 pytest-cov==7.1.0
 pytest-docker==3.2.5
-pytest-env==1.6.0
+pytest-env==1.7.0
 pytest-httpserver==1.1.5
 pytest-lazy-fixtures==1.4.0
 pytest-xdist==3.8.0

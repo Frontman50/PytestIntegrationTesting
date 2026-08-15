@@ -4,7 +4,7 @@ beautifulsoup4~=4.15.0
 black==26.5.1
 cachetools
 docker~=7.1.0
-fastjsonschema~=2.21.1
+fastjsonschema~=2.22.2
 fhir.resources==8.3.0
 flake8==7.3.0
 isodate==0.7.2
